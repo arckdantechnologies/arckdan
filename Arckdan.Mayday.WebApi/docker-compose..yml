@@ -1,0 +1,8 @@
+services:
+  Arckdan.Mayday.WebApi:
+    image: comunidademayday/arckdan.mayday.webapi
+    build: Arckdan.Mayday.WebApi
+    ports:
+    - "5000"
+    environment:
+    - ASPNETCORE_ENVIRONMENT=Production

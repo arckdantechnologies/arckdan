@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - WebApi", "3 - WebApi", "{27F8FABD-9150-483E-956F-6AFA78075010}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{99497A51-96CC-41C3-BFAC-C955FC35F59D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{3B6B0EFD-4259-418F-BD2D-851062672070}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arckdan.Mayday.WebApi", "Arckdan.Mayday.WebApi\Arckdan.Mayday.WebApi.csproj", "{A90F1362-796E-4F30-B95E-9C13588B5630}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arckdan.Mayday.Repository", "Arckdan.Mayday.Repository\Arckdan.Mayday.Repository.csproj", "{D657DC5D-52E5-4234-89A5-BA88243C2CAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arckdan.Mayday.Services", "Arckdan.Mayday.Services\Arckdan.Mayday.Services.csproj", "{ACF687DD-A713-42DD-B462-C7C0E8B73B32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arckdan.Mayday.Domain", "Arckdan.Mayday.Domain\Arckdan.Mayday.Domain.csproj", "{D884B1AC-FEB2-4949-83C4-D589FA97FD03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arckdan.Mayday.UnityOfWork", "Arckdan.Mayday.UnityOfWork\Arckdan.Mayday.UnityOfWork.csproj", "{25E68346-D668-48E5-8BAB-EDAE968EC3FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A90F1362-796E-4F30-B95E-9C13588B5630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90F1362-796E-4F30-B95E-9C13588B5630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90F1362-796E-4F30-B95E-9C13588B5630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90F1362-796E-4F30-B95E-9C13588B5630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D657DC5D-52E5-4234-89A5-BA88243C2CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D657DC5D-52E5-4234-89A5-BA88243C2CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D657DC5D-52E5-4234-89A5-BA88243C2CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D657DC5D-52E5-4234-89A5-BA88243C2CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF687DD-A713-42DD-B462-C7C0E8B73B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF687DD-A713-42DD-B462-C7C0E8B73B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF687DD-A713-42DD-B462-C7C0E8B73B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF687DD-A713-42DD-B462-C7C0E8B73B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D884B1AC-FEB2-4949-83C4-D589FA97FD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D884B1AC-FEB2-4949-83C4-D589FA97FD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D884B1AC-FEB2-4949-83C4-D589FA97FD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D884B1AC-FEB2-4949-83C4-D589FA97FD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E68346-D668-48E5-8BAB-EDAE968EC3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E68346-D668-48E5-8BAB-EDAE968EC3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E68346-D668-48E5-8BAB-EDAE968EC3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E68346-D668-48E5-8BAB-EDAE968EC3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A90F1362-796E-4F30-B95E-9C13588B5630} = {27F8FABD-9150-483E-956F-6AFA78075010}
+		{D657DC5D-52E5-4234-89A5-BA88243C2CAE} = {3B6B0EFD-4259-418F-BD2D-851062672070}
+		{ACF687DD-A713-42DD-B462-C7C0E8B73B32} = {3B6B0EFD-4259-418F-BD2D-851062672070}
+		{D884B1AC-FEB2-4949-83C4-D589FA97FD03} = {99497A51-96CC-41C3-BFAC-C955FC35F59D}
+		{25E68346-D668-48E5-8BAB-EDAE968EC3FD} = {3B6B0EFD-4259-418F-BD2D-851062672070}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C911B729-F2DD-4EBF-9A01-DAA257DC1158}
+	EndGlobalSection
+EndGlobal
